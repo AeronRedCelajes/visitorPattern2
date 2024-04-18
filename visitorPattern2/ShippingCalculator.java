@@ -1,6 +1,6 @@
 package visitorPattern2;
 
 public interface ShippingCalculator {
-    public double accept(LightFurnitureCalculator lightWeightCalculator, double money);
-    public double accept(HeavyFurnitureCalculator heavyWeightCalculator, double money, double distanceKm);
+    public double accept(LightFurnitureCalculator lightFurnitureCalculator, double money);
+    public double accept(HeavyFurnitureCalculator heavyFurnitureCalculator, double money, double distanceKm);
 }
